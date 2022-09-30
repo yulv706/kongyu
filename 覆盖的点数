@@ -14,4 +14,5 @@ int main()
     for(;j<n+1;j++)B[j]=0;
     for(a=0;a<=i-1;a++)if(A[a]>0){j=A[a];B[j]++;}
     for(a=1;a<=n;a++)cout<<B[a]<<" ";
+    return 0;
 }
